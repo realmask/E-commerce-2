@@ -1,0 +1,50 @@
+.Counter {
+    display: flex;
+    justify-content: flex-end;
+   
+    
+}
+.count{
+    border:1px solid rgb(180, 169, 227);
+    display: flex;
+    flex-direction: row;
+
+}
+.countValue {
+     width:40px;
+     height: auto;  
+     display:flex ;
+     justify-content: center; 
+     align-items: center;
+     background-color: white;
+     font-family: 'Courier New', Courier, monospace;
+     border-left: 1px solid rgb(180, 169, 227);
+    
+    border-right:1px solid rgb(180, 169, 227) ;
+ }
+.increase , .decrease{
+    width:30px;
+    height: 25px;
+    background-color:white;
+    border: none;
+}/* 
+.decrease{
+    width:30px;
+    height: 25px;
+    background-color: white;
+    border:none;
+}
+ */
+.count .increase b , .decrease b{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+input [type ="button"]{
+    border: none;
+}
+
+button :hover {
+  opacity: 0.8;
+}

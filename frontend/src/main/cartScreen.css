@@ -1,0 +1,179 @@
+.cart{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-around;
+    padding: 10px;
+}
+.cartFirstColumnDiv{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+
+    
+}
+.cartAllProducts{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    width:100%;
+    padding: 10px;
+    
+}
+.cartProduct{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-bottom: 10px;
+   
+  
+}
+.sellerInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cartProductDes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom:30px;
+    
+     
+}
+.cartPaymentDes .purchaseNotation{
+    box-sizing: border-box;
+    border: 0px solid rgb(193, 234, 253);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px;
+    justify-content: center;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.purchaseNotation img{
+    width: 60px;
+    height: 60px;
+}
+
+.purchaseNotation li{
+    list-style: none;
+    padding-top: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.purchaseNotation b{
+    padding: 2px;
+    font-size: small;
+    color: rgb(22, 59, 99);
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.amountToPay b{
+    color: rgb(22, 59, 99);
+}
+.amountToPay b:hover{
+     color: rgb(121, 184, 243);
+     cursor:none;
+}
+
+.amountToPay{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-top: 10px;
+    background-color: white;
+    padding: 20px;
+    
+}
+
+.cartPaymentDes .amountToPay b {
+    font-size: 1.3rem;
+    padding: 5px;
+
+}
+
+.cartHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.cartHeader h1{
+    font-size: 29px;
+    color: rgb(48, 56, 72) ;
+
+}
+.cartHeader li {
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 1px;
+    font-weight: bold;
+    font-size: small;
+    color: rgb(48, 56, 72) ;
+    padding-right: 4px;
+}
+.cartProduct h1{
+    font-size: large;
+}
+.cartPaymentDes{
+    height: fit-content;
+}
+.cartAllProducts hr{
+    width: 100%;
+    padding: 3;
+    margin:0;
+    margin: 3px 0 10px 0;
+    color: grey;
+    opacity: 0.3;
+}
+
+.cartProduct img{
+   height: 200px;
+}
+
+.shippedlogo , .trusted {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.shippedlogo b{
+    font-size:12px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color:  rgb(48, 56, 72);
+    padding: 3px;
+}
+.trusted{
+    background-color:  rgb(48, 56, 72);
+    height: 18px;
+    width: 60px;
+}
+.trusted b{
+    font-size:8px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color:  white;
+    padding: 3px;
+}
+.cartQuantityUpdate{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    justify-content: space-around;
+
+}
+.cartFirstColumnDiv p{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color: white;
+    margin-top: 20px;
+    padding:3px;
+
+}

@@ -1,0 +1,28 @@
+{
+  "name": "e-commerce",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "ecommerce store",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/Server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realmask/online-store.git"
+  },
+  "author": "Yash Purohit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/realmask/online-store/issues"
+  },
+  "homepage": "https://github.com/realmask/online-store#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "mongoose": "^5.11.15",
+    "nodemon": "^2.0.7",
+    "redux-thunk": "^2.3.0"
+  }
+}
